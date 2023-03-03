@@ -1,3 +1,13 @@
+import math
+def f(a, b):
+    while a <= b:
+        yield pow(a, 2)
+        a += 1
+x, y = map(int,input().split())
+for i in f(x, y):
+    print(i)
+# or
+""""
 class  f():
     def __init__(self, n, v):
         self.n = n
@@ -16,3 +26,4 @@ myclass = f(g, c)
 myit = iter(myclass)
 for x in myit:
     print(x)
+"""

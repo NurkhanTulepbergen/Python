@@ -24,7 +24,6 @@ print(Account.withdraw(acct1, int(input())))
 acct1.owner
 acct1.balance
 acct1.deposit(50)
-acct1.withdraw(75)
 acct1.withdraw(500)
 
 #Tulepbergen Nurkhan

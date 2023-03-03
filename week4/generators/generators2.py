@@ -4,4 +4,4 @@ def even_gen(n):
             yield i
 n = int(input())
 evens = even_gen(n)
-print(','.join(str(even) for even in evens))
+print(', '.join(str(even) for even in evens))
